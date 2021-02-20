@@ -1,0 +1,4935 @@
+{
+  "currencies": [
+    {
+      "name": "Gandhi",
+      "names": "Gandhis",
+      "partial": "Atom",
+      "partials": "Atoms",
+      "adjustment": 1,
+      "precision": 2
+    }
+  ],
+  "tierBonuses": [
+    1,
+    1.1,
+    1.25,
+    1.5,
+    2
+  ],
+  "occupationBonusTiers": {
+    "Hunting": 1,
+    "Butchery": 2,
+
+    "Mining": 1,
+    "Masonry": 2,
+    "Pottery": 3,
+    "Glassworking": 3,
+    "Advanced Masonry": 4,
+
+    "Logging": 1,
+    "Carpentry": 2,
+    "Paper Milling": 2,
+    "Composites": 4,
+
+    "Campfire Cooking": 1,
+    "Baking": 2,
+    "Cooking": 2,
+    "Advanced Baking": 3,
+    "Advanced Cooking": 3,
+    "Cutting Edge Cooking": 4,
+
+    "Basic Engineering": 2,
+    "Mechanics": 3,
+    "Electronics": 4,
+    "Industry": 4,
+    "Oil Drilling": 4,
+
+    "Gathering": 1,
+    "Farming": 2,
+    "Fertilizers": 3,
+    "Milling": 3,
+
+    "Smelting": 2,
+    "Advanced Smelting": 3,
+
+    "Tailoring": 2
+  },
+  "entities": [
+    {
+      "name": "Acorn",
+      "priceBase": 0.1
+    },
+    {
+      "name": "Clay",
+      "priceBase": 1
+    },
+    {
+      "name": "Agave Leaves",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Dirt",
+      "priceBase": 0.1
+    },
+    {
+      "name": "Amanita Mushrooms",
+      "priceBase": 0.3
+    },
+    {
+      "name": "Basalt",
+      "priceBase": 0.5
+    },
+    {
+      "name": "Gniess",
+      "priceBase": 0.5
+    },
+    {
+      "name": "Granite",
+      "priceBase": 0.5
+    },
+    {
+      "name": "Limestone",
+      "priceBase": 0.5
+    },
+    {
+      "name": "Sandstone",
+      "priceBase": 0.5
+    },
+    {
+      "name": "Shale",
+      "priceBase": 2
+    },
+    {
+      "name": "Beet",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Corn",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Heart of Palm",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Wood Pulp",
+      "priceBase": 0.1
+    },
+    {
+      "name": "Taro Root",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Tomato",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Wheat",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Beans",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Beet Greens",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Bison Carcass",
+      "priceBase": 6
+    },
+    {
+      "name": "Rice",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Bolete Mushrooms",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Camas Bulb",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Bass",
+      "priceBase": 2
+    },
+    {
+      "name": "Blue Shark",
+      "priceBase": 2.5
+    },
+    {
+      "name": "Cod",
+      "priceBase": 1
+    },
+    {
+      "name": "Crab Carcass",
+      "priceBase": 1
+    },
+    {
+      "name": "Moon Jellyfish",
+      "priceBase": 1
+    },
+    {
+      "name": "Pacific Sardine",
+      "priceBase": 1
+    },
+    {
+      "name": "Salmon",
+      "priceBase": 1
+    },
+    {
+      "name": "Trout",
+      "priceBase": 1
+    },
+    {
+      "name": "Tuna",
+      "priceBase": 1.25
+    },
+    {
+      "name": "Pumpkin",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Giant Cactus Fruit",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Fireweed Shoots",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Papaya",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Pineapple",
+      "priceBase": 0.5
+    },
+    {
+      "name": "Urchin",
+      "priceBase": 0.5
+    },
+    {
+      "name": "Birch Log",
+      "priceBase": 1
+    },
+    {
+      "name": "Cedar Log",
+      "priceBase": 1
+    },
+    {
+      "name": "Ceiba Log",
+      "priceBase": 1
+    },
+    {
+      "name": "Fir Log",
+      "priceBase": 1
+    },
+    {
+      "name": "Joshua Log",
+      "priceBase": 1
+    },
+    {
+      "name": "Oak Log",
+      "priceBase": 1
+    },
+    {
+      "name": "Palm Log",
+      "priceBase": 1
+    },
+    {
+      "name": "Redwood Log",
+      "priceBase": 2
+    },
+    {
+      "name": "Saguaro Rib",
+      "priceBase": 1
+    },
+    {
+      "name": "Spruce Log",
+      "priceBase": 1
+    },
+    {
+      "name": "Compost",
+      "priceBase": 0.75
+    },
+    {
+      "name": "Cookeina Mushrooms",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Crimini Mushrooms",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Copper Ore",
+      "priceBase": 3
+    },
+    {
+      "name": "Gold Ore",
+      "priceBase": 4
+    },
+    {
+      "name": "Iron Ore",
+      "priceBase": 2
+    },
+    {
+      "name": "Elk Carcass",
+      "priceBase": 5
+    },
+    {
+      "name": "Prickly Pear Fruit",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Fiddleheads",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Huckleberries",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Mountan Goat Carcass",
+      "priceBase": 3.5
+    },
+    {
+      "name": "Kelp",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Bighorn Carcass",
+      "priceBase": 3.5
+    },
+    {
+      "name": "Clam",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Alligator Carcass",
+      "priceBase": 3.5
+    },
+    {
+      "name": "Jaguar Carcass",
+      "priceBase": 3.5
+    },
+    {
+      "name": "Wolf Carcass",
+      "priceBase": 1.75
+    },
+    {
+      "name": "Big Bluestem Seed",
+      "priceBase": 0.1
+    },
+    {
+      "name": "Deer Carcass",
+      "priceBase": 3.5
+    },
+    {
+      "name": "Stone",
+      "priceBase": 0.25
+    },
+    {
+      "name": "Coyote Carcass",
+      "priceBase": 3.5
+    },
+    {
+      "name": "Fox Carcass",
+      "priceBase": 1.75
+    },
+    {
+      "name": "Agouti Carcass",
+      "priceBase": 1.75
+    },
+    {
+      "name": "Hare Carcass",
+      "priceBase": 1.75
+    },
+    {
+      "name": "Otter Carcass",
+      "priceBase": 1.75
+    },
+    {
+      "name": "Snapping Turtle Carcass",
+      "priceBase": 1.75
+    },
+    {
+      "name": "Turkey Carcass",
+      "priceBase": 1.75
+    },
+    {
+      "priceBase": 0.4,
+      "name": "Acorn Powder",
+      "table": "Mill",
+      "skill": "Milling L3"
+    },
+    {
+      "priceBase": 1020,
+      "name": "Adorned Ashlar Basalt Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L7"
+    },
+    {
+      "priceBase": 1080,
+      "name": "Adorned Ashlar Gneiss Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L7"
+    },
+    {
+      "priceBase": 440,
+      "name": "Adorned Ashlar Granite Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L7"
+    },
+    {
+      "priceBase": 500,
+      "name": "Adorned Ashlar Limestone Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L7"
+    },
+    {
+      "priceBase": 440,
+      "name": "Adorned Ashlar Sandstone Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L7"
+    },
+    {
+      "priceBase": 1680,
+      "name": "Adorned Ashlar Shale Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L7"
+    },
+    {
+      "priceBase": 440,
+      "name": "Adorned Ashlar Stone Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L7"
+    },
+    {
+      "priceBase": 550,
+      "name": "Adorned Ashlar Basalt Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L5"
+    },
+    {
+      "priceBase": 580,
+      "name": "Adorned Ashlar Gneiss Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L5"
+    },
+    {
+      "priceBase": 260,
+      "name": "Adorned Ashlar Granite Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L5"
+    },
+    {
+      "priceBase": 290,
+      "name": "Adorned Ashlar Limestone Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L5"
+    },
+    {
+      "priceBase": 260,
+      "name": "Adorned Ashlar Sandstone Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L5"
+    },
+    {
+      "priceBase": 880,
+      "name": "Adorned Ashlar Shale Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L5"
+    },
+    {
+      "priceBase": 260,
+      "name": "Adorned Ashlar Stone Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L5"
+    },
+    {
+      "priceBase": 1256,
+      "name": "Adorned Ashlar Basalt Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 1328,
+      "name": "Adorned Ashlar Gneiss Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 560,
+      "name": "Adorned Ashlar Granite Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 632,
+      "name": "Adorned Ashlar Limestone Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 560,
+      "name": "Adorned Ashlar Sandstone Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 2048,
+      "name": "Adorned Ashlar Shale Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 560,
+      "name": "Adorned Ashlar Stone Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 2367,
+      "name": "Advanced Carpentry Table",
+      "table": "Electric Machinist Table",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 1136,
+      "name": "Advanced Circuit",
+      "table": "Electronics Assembly",
+      "skill": "Electronics L2"
+    },
+    {
+      "priceBase": 30332,
+      "name": "Advanced Combustion Engine",
+      "table": "Robotic Assembly Line",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 3770,
+      "name": "Advanced Masonry Table",
+      "table": "Electric Machinist Table",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 72,
+      "name": "Advanced Upgrade 1",
+      "table": "Kiln",
+      "skill": "Pottery L2"
+    },
+    {
+      "priceBase": 352,
+      "name": "Advanced Upgrade 2",
+      "table": "Kiln",
+      "skill": "Glassworking L4"
+    },
+    {
+      "priceBase": 418.25,
+      "name": "Advanced Upgrade 3",
+      "table": "Anvil",
+      "skill": "Smelting L5"
+    },
+    {
+      "priceBase": 1084.25,
+      "name": "Advanced Upgrade 4",
+      "table": "Machinist Table",
+      "skill": "Mechanics L6"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Agave Seed",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 12.5,
+      "name": "Agriculture Research Paper Advanced",
+      "table": "Research Table",
+      "skill": "Farming L0"
+    },
+    {
+      "priceBase": 212,
+      "name": "Agriculture Research Paper Modern",
+      "table": "Research Table",
+      "skill": "Farming L0"
+    },
+    {
+      "priceBase": 0.3,
+      "name": "Amanita Mushroom Spores",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 105,
+      "name": "Amendments",
+      "table": "Capitol",
+      "skill": null
+    },
+    {
+      "priceBase": 140,
+      "name": "Anvil",
+      "table": "Bloomery",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 25.83,
+      "name": "Arrastra",
+      "table": "Workbench",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Arrow",
+      "table": "Tool Bench",
+      "skill": null
+    },
+    {
+      "priceBase": 35,
+      "name": "Ashlar Basalt",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 2,
+      "name": "Crushed Basalt",
+      "table": "Stamp Mill",
+      "skill": "Mining L1"
+    },
+    {
+      "priceBase": 38,
+      "name": "Ashlar Gneiss",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 2,
+      "name": "Crushed Gneiss",
+      "table": "Stamp Mill",
+      "skill": "Mining L1"
+    },
+    {
+      "priceBase": 6,
+      "name": "Ashlar Granite",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 2,
+      "name": "Crushed Granite",
+      "table": "Arrastra",
+      "skill": "Mining L1"
+    },
+    {
+      "priceBase": 780,
+      "name": "Ashlar Large Basalt Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 840,
+      "name": "Ashlar Large Gneiss Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 200,
+      "name": "Ashlar Large Granite Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 260,
+      "name": "Ashlar Large Limestone Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 200,
+      "name": "Ashlar Large Sandstone Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 1440,
+      "name": "Ashlar Large Shale Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 200,
+      "name": "Ashlar Large Stone Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 9,
+      "name": "Ashlar Limestone",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 2,
+      "name": "Crushed Limestone",
+      "table": "Arrastra",
+      "skill": "Mining L1"
+    },
+    {
+      "priceBase": 6,
+      "name": "Ashlar Sandstone",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 2,
+      "name": "Crushed Sandstone",
+      "table": "Arrastra",
+      "skill": "Mining L1"
+    },
+    {
+      "priceBase": 60,
+      "name": "Ashlar Shale",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 8,
+      "name": "Crushed Shale",
+      "table": "Arrastra",
+      "skill": "Mining L1"
+    },
+    {
+      "priceBase": 390,
+      "name": "Ashlar Small Basalt Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 420,
+      "name": "Ashlar Small Gneiss Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 100,
+      "name": "Ashlar Small Granite Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 130,
+      "name": "Ashlar Small Limestone Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 100,
+      "name": "Ashlar Small Sandstone Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 720,
+      "name": "Ashlar Small Shale Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 100,
+      "name": "Ashlar Small Stone Fountain",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 468,
+      "name": "Ashlar Basalt Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 504,
+      "name": "Ashlar Gneiss Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 120,
+      "name": "Ashlar Granite Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 156,
+      "name": "Ashlar Limestone Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 120,
+      "name": "Ashlar Sandstone Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 864,
+      "name": "Ashlar Shale Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 120,
+      "name": "Ashlar Stone Bench",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L4"
+    },
+    {
+      "priceBase": 234,
+      "name": "Ashlar Basalt Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 252,
+      "name": "Ashlar Gneiss Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 60,
+      "name": "Ashlar Granite Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 78,
+      "name": "Ashlar Limestone Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 60,
+      "name": "Ashlar Sandstone Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 432,
+      "name": "Ashlar Shale Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 60,
+      "name": "Ashlar Stone Chair",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 312,
+      "name": "Ashlar Basalt Door",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 336,
+      "name": "Ashlar Gneiss Door",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 80,
+      "name": "Ashlar Granite Door",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 104,
+      "name": "Ashlar Limestone Door",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 80,
+      "name": "Ashlar Sandstone Door",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 576,
+      "name": "Ashlar Shale Door",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 80,
+      "name": "Ashlar Stone Door",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 936,
+      "name": "Ashlar Basalt Fireplace",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 1008,
+      "name": "Ashlar Gneiss Fireplace",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 240,
+      "name": "Ashlar Granite Fireplace",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 312,
+      "name": "Ashlar Limestone Fireplace",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 240,
+      "name": "Ashlar Sandstone Fireplace",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 1728,
+      "name": "Ashlar Shale Fireplace",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 240,
+      "name": "Ashlar Stone Fireplace",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L6"
+    },
+    {
+      "priceBase": 624,
+      "name": "Ashlar Basalt Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 672,
+      "name": "Ashlar Gneiss Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 160,
+      "name": "Ashlar Granite Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 208,
+      "name": "Ashlar Limestone Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 160,
+      "name": "Ashlar Sandstone Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 1152,
+      "name": "Ashlar Shale Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 160,
+      "name": "Ashlar Stone Table",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 10.75,
+      "name": "Asphalt Concrete",
+      "table": "Wainwright Table",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 1470,
+      "name": "Assembly Line",
+      "table": "Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 1,
+      "name": "Baked Agave",
+      "table": "Bakery Oven",
+      "skill": "Baking L1"
+    },
+    {
+      "priceBase": 1,
+      "name": "Baked Beet",
+      "table": "Bakery Oven",
+      "skill": "Baking L1"
+    },
+    {
+      "priceBase": 1,
+      "name": "Baked Corn",
+      "table": "Bakery Oven",
+      "skill": "Baking L1"
+    },
+    {
+      "priceBase": 1,
+      "name": "Baked Heart Of Palm",
+      "table": "Bakery Oven",
+      "skill": "Baking L1"
+    },
+    {
+      "priceBase": 0.5,
+      "name": "Tallow",
+      "table": "Bakery Oven",
+      "skill": "Butchery"
+    },
+    {
+      "priceBase": 1.5,
+      "name": "Baked Meat",
+      "table": "Bakery Oven",
+      "skill": "Baking L1"
+    },
+    {
+      "priceBase": 0.5,
+      "name": "Charred Sausage",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 0.5,
+      "name": "Mortar",
+      "table": "Bakery Oven",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 1.5,
+      "name": "Baked Roast",
+      "table": "Bakery Oven",
+      "skill": "Baking L2"
+    },
+    {
+      "priceBase": 1,
+      "name": "Baked Taro",
+      "table": "Bakery Oven",
+      "skill": "Baking L1"
+    },
+    {
+      "priceBase": 1,
+      "name": "Baked Tomato",
+      "table": "Bakery Oven",
+      "skill": "Baking L1"
+    },
+    {
+      "priceBase": 160,
+      "name": "Bakery Oven",
+      "table": "Kiln",
+      "skill": "Pottery L1"
+    },
+    {
+      "priceBase": 105,
+      "name": "Ballot Box",
+      "table": "Capitol",
+      "skill": null
+    },
+    {
+      "priceBase": 77.14,
+      "name": "Bandana",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L3"
+    },
+    {
+      "priceBase": 856,
+      "name": "Bank",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 1.25,
+      "name": "Bannock",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 10,
+      "name": "Barrel",
+      "table": "Electric Machinist Table",
+      "skill": "Oil Drilling L1"
+    },
+    {
+      "priceBase": 24.57,
+      "name": "Basic Backpack",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 900,
+      "name": "Basic Circuit",
+      "table": "Electronics Assembly",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 80,
+      "name": "Basic Upgrade 1",
+      "table": "Carpentry Table",
+      "skill": "Logging L2"
+    },
+    {
+      "priceBase": 120,
+      "name": "Basic Upgrade 2",
+      "table": "Masonry Table",
+      "skill": "Masonry L4"
+    },
+    {
+      "priceBase": 169.52,
+      "name": "Basic Upgrade 3",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L5"
+    },
+    {
+      "priceBase": 363.81,
+      "name": "Basic Upgrade 4",
+      "table": "Wainwright Table",
+      "skill": "Basic Engineering L6"
+    },
+    {
+      "priceBase": 240,
+      "name": "Bathtub",
+      "table": "Kiln",
+      "skill": "Pottery L7"
+    },
+    {
+      "priceBase": 1.5,
+      "name": "Bean Paste",
+      "table": "Mill",
+      "skill": "Milling L2"
+    },
+    {
+      "priceBase": 119.33,
+      "name": "Bear S U P R E M E",
+      "table": "Stove",
+      "skill": "Advanced Cooking L3"
+    },
+    {
+      "priceBase": 8,
+      "name": "Bearclaw",
+      "table": "Bakery Oven",
+      "skill": "Advanced Baking L2"
+    },
+    {
+      "priceBase": 141.43,
+      "name": "Bearpack",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L4"
+    },
+    {
+      "priceBase": 1,
+      "name": "Beet Campfire Salad",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Beet Seed",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 0.5,
+      "name": "Sugar",
+      "table": "Mill",
+      "skill": "Milling L1"
+    },
+    {
+      "priceBase": 15.99,
+      "name": "Berry Extract Fertilizer",
+      "table": "Farmers Table",
+      "skill": "Fertilizers L3"
+    },
+    {
+      "priceBase": 33.14,
+      "name": "Big Backpack",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L2"
+    },
+    {
+      "priceBase": 20,
+      "name": "Biodiesel",
+      "table": "Oil Refinery",
+      "skill": "Oil Drilling L2"
+    },
+    {
+      "priceBase": 149.29,
+      "name": "Bison Mount",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L4"
+    },
+    {
+      "priceBase": 334,
+      "name": "Blast Furnace",
+      "table": "Assembly Line",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 6.6,
+      "name": "Blood Meal Fertilizer",
+      "table": "Farmers Table",
+      "skill": "Fertilizers L1"
+    },
+    {
+      "priceBase": 113.33,
+      "name": "Bloomery",
+      "table": "Kiln",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 1.3333333333333333,
+      "name": "Board",
+      "table": "Sawmill",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 1.3333333333333333,
+      "name": "Hardwood Board",
+      "table": "Sawmill",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 1.3333333333333333,
+      "name": "Softwood Board",
+      "table": "Sawmill",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 105,
+      "name": "Board Of Elections",
+      "table": "Capitol",
+      "skill": null
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Boiled Grains",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 2.5,
+      "name": "Boiled Rice",
+      "table": "Kitchen",
+      "skill": "Advanced Cooking L1"
+    },
+    {
+      "priceBase": 14.67,
+      "name": "Boiled Sausage",
+      "table": "Stove",
+      "skill": "Advanced Cooking L2"
+    },
+    {
+      "priceBase": 175,
+      "name": "Boiler",
+      "table": "Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Bolete Mushroom Spores",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 268.33,
+      "name": "Bookshelf",
+      "table": "Sawmill",
+      "skill": "Carpentry L4"
+    },
+    {
+      "priceBase": 42,
+      "name": "Brazier",
+      "table": "Anvil",
+      "skill": "Smelting L2"
+    },
+    {
+      "priceBase": 6,
+      "name": "Bread",
+      "table": "Bakery Oven",
+      "skill": "Advanced Baking L1"
+    },
+    {
+      "priceBase": 3,
+      "name": "Brick",
+      "table": "Kiln",
+      "skill": "Pottery L1"
+    },
+    {
+      "priceBase": 350,
+      "name": "Brick Fireplace",
+      "table": "Masonry Table",
+      "skill": "Pottery L4"
+    },
+    {
+      "priceBase": 1.7,
+      "name": "Leather Hide",
+      "table": "Butchery Table",
+      "skill": "Butchery"
+    },
+    {
+      "priceBase": 1.44,
+      "name": "Fur Pelt",
+      "table": "Butchery Table",
+      "skill": "Butchery"
+    },
+    {
+      "priceBase": 0.56,
+      "name": "Raw Meat",
+      "table": "Butchery Table",
+      "skill": "Butchery"
+    },
+    {
+      "priceBase": 41.67,
+      "name": "Butchery Table",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 58,
+      "name": "C O2 Canister",
+      "table": "Laboratory",
+      "skill": "Cutting Edge Cooking L1"
+    },
+    {
+      "priceBase": 4.89,
+      "name": "Camas Ash Fertilizer",
+      "table": "Farmers Table",
+      "skill": "Fertilizers L2"
+    },
+    {
+      "priceBase": 7,
+      "name": "Camas Bread",
+      "table": "Bakery Oven",
+      "skill": "Advanced Baking L1"
+    },
+    {
+      "priceBase": 1,
+      "name": "Camas Bulb Bake",
+      "table": "Bakery Oven",
+      "skill": "Baking L1"
+    },
+    {
+      "priceBase": 1,
+      "name": "Camas Paste",
+      "table": "Mill",
+      "skill": "Milling L1"
+    },
+    {
+      "priceBase": 54.29,
+      "name": "Camo Pants",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L2"
+    },
+    {
+      "priceBase": 134.29,
+      "name": "Camo Shirt",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L3"
+    },
+    {
+      "priceBase": 6,
+      "name": "Campfire",
+      "table": "Campsite",
+      "skill": null
+    },
+    {
+      "priceBase": 1,
+      "name": "Charred Meat",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 0.5,
+      "name": "Charred Fish",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 1.5,
+      "name": "Campfire Roast",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L2"
+    },
+    {
+      "priceBase": 61.14,
+      "name": "Campsite",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L0"
+    },
+    {
+      "priceBase": 32,
+      "name": "Candle Stand",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 60,
+      "name": "Capitol",
+      "table": "Carpentry Table",
+      "skill": null
+    },
+    {
+      "priceBase": 17.71,
+      "name": "Capris",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 25,
+      "name": "Carpentry Table",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 3.25,
+      "name": "Carved Pumpkin",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 164,
+      "name": "Cast Iron Stove",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 32,
+      "name": "Ceiling Candle",
+      "table": "Anvil",
+      "skill": "Smelting L3"
+    },
+    {
+      "priceBase": 2,
+      "name": "Cellulose Fiber",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 3.5,
+      "name": "Cement",
+      "table": "Cement Kiln",
+      "skill": "Masonry L4"
+    },
+    {
+      "priceBase": 960,
+      "name": "Cement Kiln",
+      "table": "Assembly Line",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 105,
+      "name": "Census Bureau",
+      "table": "Capitol",
+      "skill": null
+    },
+    {
+      "priceBase": 1273.33,
+      "name": "Chainsaw",
+      "table": "Assembly Line",
+      "skill": "Advanced Smelting L3"
+    },
+    {
+      "priceBase": 7,
+      "name": "Charcoal",
+      "table": "Kiln",
+      "skill": "Logging L6"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Charred Agave",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Charred Beans",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Charred Beet",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Charred Cactus Fruit",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Charred Camas Bulb",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Charred Corn",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Charred Fireweed Shoots",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Charred Heart Of Palm",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Charred Mushrooms",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Charred Papaya",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 0.5,
+      "name": "Charred Pineapple",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 1.5,
+      "name": "Charred Sausage",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Charred Taro",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Charred Tomato",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 0.5,
+      "name": "Raw Fish",
+      "table": "Fishery",
+      "skill": null
+    },
+    {
+      "priceBase": 1.71,
+      "name": "Cloth",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 8,
+      "name": "Cloth Belt",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 174.29,
+      "name": "Cloth Cape",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L3"
+    },
+    {
+      "priceBase": 797.33,
+      "name": "Combustion Engine",
+      "table": "Electric Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 1157.33,
+      "name": "Combustion Generator",
+      "table": "Electric Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 795,
+      "name": "Composite Bow",
+      "table": "Assembly Line",
+      "skill": "Advanced Smelting L2"
+    },
+    {
+      "priceBase": 5.99,
+      "name": "Composite Filler",
+      "table": "Farmers Table",
+      "skill": "Fertilizers L3"
+    },
+    {
+      "priceBase": 51.5,
+      "name": "Composite Birch Lumber",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 51.5,
+      "name": "Composite Cedar Lumber",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 51.5,
+      "name": "Composite Ceiba Lumber",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 51.5,
+      "name": "Composite Fir Lumber",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 51.5,
+      "name": "Composite Joshua Lumber",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 51.5,
+      "name": "Composite Lumber",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 51.5,
+      "name": "Composite Oak Lumber",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 51.5,
+      "name": "Composite Palm Lumber",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 52.5,
+      "name": "Composite Redwood Lumber",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 51.5,
+      "name": "Composite Saguaro Lumber",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 51.5,
+      "name": "Composite Spruce Lumber",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 324,
+      "name": "Composite Birch Bench",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 324,
+      "name": "Composite Cedar Bench",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 324,
+      "name": "Composite Ceiba Bench",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 324,
+      "name": "Composite Fir Bench",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 324,
+      "name": "Composite Hardwood Bench",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 324,
+      "name": "Composite Joshua Bench",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 324,
+      "name": "Composite Lumber Bench",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 324,
+      "name": "Composite Oak Bench",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 324,
+      "name": "Composite Palm Bench",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 330,
+      "name": "Composite Redwood Bench",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 324,
+      "name": "Composite Saguaro Bench",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 324,
+      "name": "Composite Softwood Bench",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 324,
+      "name": "Composite Spruce Bench",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 221,
+      "name": "Composite Birch Chair",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 221,
+      "name": "Composite Cedar Chair",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 221,
+      "name": "Composite Ceiba Chair",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 221,
+      "name": "Composite Fir Chair",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 221,
+      "name": "Composite Hardwood Chair",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 221,
+      "name": "Composite Joshua Chair",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 221,
+      "name": "Composite Lumber Chair",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 221,
+      "name": "Composite Oak Chair",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 221,
+      "name": "Composite Palm Chair",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 225,
+      "name": "Composite Redwood Chair",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 221,
+      "name": "Composite Saguaro Chair",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 221,
+      "name": "Composite Softwood Chair",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 221,
+      "name": "Composite Spruce Chair",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 113,
+      "name": "Composite Birch Door",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 113,
+      "name": "Composite Cedar Door",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 113,
+      "name": "Composite Ceiba Door",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 113,
+      "name": "Composite Fir Door",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 113,
+      "name": "Composite Hardwood Door",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 113,
+      "name": "Composite Joshua Door",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 113,
+      "name": "Composite Lumber Door",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 113,
+      "name": "Composite Oak Door",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 113,
+      "name": "Composite Palm Door",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 115,
+      "name": "Composite Redwood Door",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 113,
+      "name": "Composite Saguaro Door",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 113,
+      "name": "Composite Softwood Door",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 113,
+      "name": "Composite Spruce Door",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L1"
+    },
+    {
+      "priceBase": 334,
+      "name": "Composite Birch Table",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 334,
+      "name": "Composite Cedar Table",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 334,
+      "name": "Composite Ceiba Table",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 334,
+      "name": "Composite Fir Table",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 334,
+      "name": "Composite Hardwood Table",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 334,
+      "name": "Composite Joshua Table",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 334,
+      "name": "Composite Lumber Table",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 334,
+      "name": "Composite Oak Table",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 334,
+      "name": "Composite Palm Table",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 340,
+      "name": "Composite Redwood Table",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 334,
+      "name": "Composite Saguaro Table",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 334,
+      "name": "Composite Softwood Table",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 334,
+      "name": "Composite Spruce Table",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L3"
+    },
+    {
+      "priceBase": 5.14,
+      "name": "Compost Fertilizer",
+      "table": "Farmers Table",
+      "skill": "Fertilizers L5"
+    },
+    {
+      "priceBase": 67387.5,
+      "name": "Computer Lab",
+      "table": "Electronics Assembly",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 42,
+      "name": "Copper Concentrate",
+      "table": "Froth Floatation Cell",
+      "skill": "Mining L4"
+    },
+    {
+      "priceBase": 20,
+      "name": "Iron Concentrate",
+      "table": "Sensor Based Belt Sorter",
+      "skill": "Mining L6"
+    },
+    {
+      "priceBase": 80,
+      "name": "Gold Concentrate",
+      "table": "Froth Floatation Cell",
+      "skill": "Mining L4"
+    },
+    {
+      "priceBase": 1,
+      "name": "Construction Post",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 46,
+      "name": "Contract Board",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L0"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Cookeina Mushroom Spores",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 21,
+      "name": "Copper Bar",
+      "table": "Blast Furnace",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 29,
+      "name": "Steel Bar",
+      "table": "Blast Furnace",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 42,
+      "name": "Copper Pipe",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 42,
+      "name": "Copper Wiring",
+      "table": "Electric Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 11,
+      "name": "Corn Fritters",
+      "table": "Stove",
+      "skill": "Advanced Cooking L1"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Corn Seed",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 2.5,
+      "name": "Corn Starch",
+      "table": "Laboratory",
+      "skill": "Cutting Edge Cooking L1"
+    },
+    {
+      "priceBase": 0.3,
+      "name": "Cereal Germ",
+      "table": "Mill",
+      "skill": "Milling L1"
+    },
+    {
+      "priceBase": 0.7,
+      "name": "Flour",
+      "table": "Mill",
+      "skill": "Milling L1"
+    },
+    {
+      "priceBase": 0.4,
+      "name": "Cornmeal",
+      "table": "Mill",
+      "skill": "Milling L1"
+    },
+    {
+      "priceBase": 58,
+      "name": "Corrugated Steel",
+      "table": "Rolling Mill",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 150.71,
+      "name": "Couch",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L3"
+    },
+    {
+      "priceBase": 105,
+      "name": "Court",
+      "table": "Capitol",
+      "skill": null
+    },
+    {
+      "priceBase": 35276,
+      "name": "Crane",
+      "table": "Robotic Assembly Line",
+      "skill": "Industry L2"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Crimini Mushroom Spores",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 52,
+      "name": "Crimson Salad",
+      "table": "Kitchen",
+      "skill": "Advanced Cooking L3"
+    },
+    {
+      "priceBase": 14,
+      "name": "Crispy Bacon",
+      "table": "Cast Iron Stove",
+      "skill": "Cooking L3"
+    },
+    {
+      "priceBase": 12,
+      "name": "Crushed Copper Ore",
+      "table": "Jaw Crusher",
+      "skill": "Mining L2"
+    },
+    {
+      "priceBase": 16,
+      "name": "Crushed Gold Ore",
+      "table": "Jaw Crusher",
+      "skill": "Mining L2"
+    },
+    {
+      "priceBase": 8,
+      "name": "Crushed Iron Ore",
+      "table": "Jaw Crusher",
+      "skill": "Mining L2"
+    },
+    {
+      "priceBase": 58,
+      "name": "Crushed Slag",
+      "table": "Stamp Mill",
+      "skill": "Mining L1"
+    },
+    {
+      "priceBase": 46,
+      "name": "Culinary Research Paper Advanced",
+      "table": "Research Table",
+      "skill": "Baking L1"
+    },
+    {
+      "priceBase": 7.5,
+      "name": "Culinary Research Paper Basic",
+      "table": "Research Table",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 206.67,
+      "name": "Culinary Research Paper Modern",
+      "table": "Research Table",
+      "skill": "Advanced Cooking L2"
+    },
+    {
+      "priceBase": 1108,
+      "name": "Currency Exchange",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 40,
+      "name": "Dendrology Research Paper Advanced",
+      "table": "Research Table",
+      "skill": "Carpentry L0"
+    },
+    {
+      "priceBase": 20,
+      "name": "Dendrology Research Paper Basic",
+      "table": "Research Table",
+      "skill": "Logging L0"
+    },
+    {
+      "priceBase": 315,
+      "name": "Dendrology Research Paper Modern",
+      "table": "Research Table",
+      "skill": "Carpentry L0"
+    },
+    {
+      "priceBase": 10.86,
+      "name": "Derpy Hat",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 0.6,
+      "name": "Dirt Ramp",
+      "table": "Wainwright Table",
+      "skill": null
+    },
+    {
+      "priceBase": 33.33,
+      "name": "Distribution Station",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 1284,
+      "name": "Electric Lathe",
+      "table": "Electric Machinist Table",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 548,
+      "name": "Electric Machinist Table",
+      "table": "Assembly Line",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 4252,
+      "name": "Electric Motor",
+      "table": "Electronics Assembly",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 1160,
+      "name": "Electric Planer",
+      "table": "Electric Machinist Table",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 696,
+      "name": "Electric Stamping Press",
+      "table": "Electric Machinist Table",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 631,
+      "name": "Electric Wall Lamp",
+      "table": "Electronics Assembly",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 320,
+      "name": "Electric Water Pump",
+      "table": "Assembly Line",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 1063.33,
+      "name": "Electronics Assembly",
+      "table": "Electric Machinist Table",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 149.29,
+      "name": "Elk Mount",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L4"
+    },
+    {
+      "priceBase": 39.33,
+      "name": "Elk Taco",
+      "table": "Stove",
+      "skill": "Advanced Cooking L2"
+    },
+    {
+      "priceBase": 44,
+      "name": "Elk Wellington",
+      "table": "Bakery Oven",
+      "skill": "Advanced Baking L3"
+    },
+    {
+      "priceBase": 168.19,
+      "name": "Engineering Research Paper Advanced",
+      "table": "Research Table",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 440,
+      "name": "Engineering Research Paper Modern",
+      "table": "Research Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 5,
+      "name": "Epoxy",
+      "table": "Oil Refinery",
+      "skill": "Oil Drilling L1"
+    },
+    {
+      "priceBase": 5,
+      "name": "Synthetic Rubber",
+      "table": "Oil Refinery",
+      "skill": "Oil Drilling L1"
+    },
+    {
+      "priceBase": 10,
+      "name": "Plastic",
+      "table": "Oil Refinery",
+      "skill": "Oil Drilling L1"
+    },
+    {
+      "priceBase": 35276,
+      "name": "Excavator",
+      "table": "Robotic Assembly Line",
+      "skill": "Industry L2"
+    },
+    {
+      "priceBase": 105,
+      "name": "Executive Office",
+      "table": "Capitol",
+      "skill": null
+    },
+    {
+      "priceBase": 4,
+      "name": "Fruit Salad",
+      "table": "Cast Iron Stove",
+      "skill": "Cooking L1"
+    },
+    {
+      "priceBase": 3,
+      "name": "Basic Salad",
+      "table": "Cast Iron Stove",
+      "skill": "Cooking L1"
+    },
+    {
+      "priceBase": 3,
+      "name": "Vegetable Medley",
+      "table": "Cast Iron Stove",
+      "skill": "Cooking L1"
+    },
+    {
+      "priceBase": 28.67,
+      "name": "Farmers Table",
+      "table": "Workbench",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 0.75,
+      "name": "Fern Campfire Salad",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Fern Spore",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 4.39,
+      "name": "Fiber Filler",
+      "table": "Farmers Table",
+      "skill": "Fertilizers L2"
+    },
+    {
+      "priceBase": 36,
+      "name": "Fiberglass",
+      "table": "Electronics Assembly",
+      "skill": "Oil Drilling L1"
+    },
+    {
+      "priceBase": 1.5,
+      "name": "Field Campfire Stew",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L3"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Fireweed Seed",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 44.29,
+      "name": "Fish Trap",
+      "table": "Fishery",
+      "skill": "Hunting L1"
+    },
+    {
+      "priceBase": 38.67,
+      "name": "Fishery",
+      "table": "Workbench",
+      "skill": "Hunting L1"
+    },
+    {
+      "priceBase": 10,
+      "name": "Fishing Pole",
+      "table": "Fishery",
+      "skill": null
+    },
+    {
+      "priceBase": 127,
+      "name": "Flat Steel",
+      "table": "Rolling Mill",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 4,
+      "name": "Flatbread",
+      "table": "Bakery Oven",
+      "skill": "Baking L1"
+    },
+    {
+      "priceBase": 130,
+      "name": "Framed Glass",
+      "table": "Electric Machinist Table",
+      "skill": "Glassworking L1"
+    },
+    {
+      "priceBase": 770,
+      "name": "Framed Glass Door",
+      "table": "Electric Machinist Table",
+      "skill": "Glassworking L1"
+    },
+    {
+      "priceBase": 1.25,
+      "name": "Fried Camas",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 1.25,
+      "name": "Fried Fiddleheads",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 48,
+      "name": "Fried Hare Haunches",
+      "table": "Stove",
+      "skill": "Advanced Cooking L2"
+    },
+    {
+      "priceBase": 1.25,
+      "name": "Fried Hearts Of Palm",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 1.25,
+      "name": "Fried Taro",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 1.25,
+      "name": "Fried Tomatoes",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 18077,
+      "name": "Froth Floatation Cell",
+      "table": "Electronics Assembly",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 6,
+      "name": "Fruit Muffin",
+      "table": "Bakery Oven",
+      "skill": "Baking L1"
+    },
+    {
+      "priceBase": 7,
+      "name": "Fruit Tart",
+      "table": "Bakery Oven",
+      "skill": "Advanced Baking L2"
+    },
+    {
+      "priceBase": 20,
+      "name": "Garden Boots",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 40,
+      "name": "Gasoline",
+      "table": "Oil Refinery",
+      "skill": "Oil Drilling L1"
+    },
+    {
+      "priceBase": 13.21,
+      "name": "Gathering Research Paper Basic",
+      "table": "Research Table",
+      "skill": "Gathering L0"
+    },
+    {
+      "priceBase": 60,
+      "name": "Gearbox",
+      "table": "Shaper",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 30,
+      "name": "Geology Research Paper Advanced",
+      "table": "Research Table",
+      "skill": "Masonry L0"
+    },
+    {
+      "priceBase": 7.5,
+      "name": "Geology Research Paper Basic",
+      "table": "Research Table",
+      "skill": "Mining L0"
+    },
+    {
+      "priceBase": 90,
+      "name": "Geology Research Paper Modern",
+      "table": "Research Table",
+      "skill": "Pottery L0"
+    },
+    {
+      "priceBase": 8.57,
+      "name": "Gigot Sleeve Shirt",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 12,
+      "name": "Glass",
+      "table": "Kiln",
+      "skill": "Glassworking L1"
+    },
+    {
+      "priceBase": 145.29,
+      "name": "Goat Mount",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L4"
+    },
+    {
+      "priceBase": 40,
+      "name": "Gold Bar",
+      "table": "Blast Furnace",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 20,
+      "name": "Gold Flakes",
+      "table": "Electronics Assembly",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 80,
+      "name": "Gold Wiring",
+      "table": "Electric Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 105,
+      "name": "Government Office",
+      "table": "Capitol",
+      "skill": null
+    },
+    {
+      "priceBase": 194.67,
+      "name": "Hand Plow",
+      "table": "Wainwright Table",
+      "skill": "Basic Engineering L2"
+    },
+    {
+      "priceBase": 2,
+      "name": "Hardwood Hewn Log",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 10.5,
+      "name": "Hardwood Lumber",
+      "table": "Sawmill",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 168,
+      "name": "Heat Sink",
+      "table": "Shaper",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 11.14,
+      "name": "Henley",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 44,
+      "name": "Hewn Bench",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L2"
+    },
+    {
+      "priceBase": 44,
+      "name": "Hewn Hardwood Bench",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L2"
+    },
+    {
+      "priceBase": 44,
+      "name": "Hewn Softwood Bench",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L2"
+    },
+    {
+      "priceBase": 43.43,
+      "name": "Hewn Chair",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 41.2,
+      "name": "Hewn Hardwood Chair",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 41.2,
+      "name": "Hewn Softwood Chair",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 10,
+      "name": "Hewn Door",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 2,
+      "name": "Hewn Log",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 2,
+      "name": "Softwood Hewn Log",
+      "table": "Carpentry Table",
+      "skill": "Logging L1"
+    },
+    {
+      "priceBase": 38,
+      "name": "Hewn Hardwood Table",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L2"
+    },
+    {
+      "priceBase": 38,
+      "name": "Hewn Softwood Table",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L2"
+    },
+    {
+      "priceBase": 38,
+      "name": "Hewn Table",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L2"
+    },
+    {
+      "priceBase": 9.6,
+      "name": "Hide Ash Fertilizer",
+      "table": "Farmers Table",
+      "skill": "Fertilizers L1"
+    },
+    {
+      "priceBase": 5,
+      "name": "Huckleberry Extract",
+      "table": "Kitchen",
+      "skill": "Advanced Cooking L1"
+    },
+    {
+      "priceBase": 8.5,
+      "name": "Huckleberry Pie",
+      "table": "Bakery Oven",
+      "skill": "Baking L3"
+    },
+    {
+      "priceBase": 0.5,
+      "name": "Huckleberry Seed",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 2,
+      "name": "Hydrocolloids",
+      "table": "Laboratory",
+      "skill": "Cutting Edge Cooking L1"
+    },
+    {
+      "priceBase": 36,
+      "name": "Icebox",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L5"
+    },
+    {
+      "priceBase": 22,
+      "name": "Infused Oil",
+      "table": "Kitchen",
+      "skill": "Advanced Cooking L1"
+    },
+    {
+      "priceBase": 45.33,
+      "name": "Iron Axe",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 20,
+      "name": "Iron Axle",
+      "table": "Lathe",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 10,
+      "name": "Iron Bar",
+      "table": "Blast Furnace",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 10,
+      "name": "Iron Gear",
+      "table": "Shaper",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 45.33,
+      "name": "Iron Hammer",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 45.33,
+      "name": "Iron Hoe",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 45.33,
+      "name": "Iron Machete",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 45.33,
+      "name": "Iron Pickaxe",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 20,
+      "name": "Iron Pipe",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 10,
+      "name": "Iron Plate",
+      "table": "Screw Press",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 45.33,
+      "name": "Iron Rock Drill",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 60,
+      "name": "Iron Saw Blade",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 45.33,
+      "name": "Iron Shovel",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 45.33,
+      "name": "Iron Sickle",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 60,
+      "name": "Iron Wheel",
+      "table": "Wainwright Table",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 60,
+      "name": "IronPiston",
+      "table": "Screw Press",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 11289,
+      "name": "Jaw Crusher",
+      "table": "Robotic Assembly Line",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 1,
+      "name": "Jungle Campfire Salad",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 1.5,
+      "name": "Jungle Campfire Stew",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L3"
+    },
+    {
+      "priceBase": 20,
+      "name": "Kiln",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 232.86,
+      "name": "Kitchen",
+      "table": "Sawmill",
+      "skill": "Carpentry L6"
+    },
+    {
+      "priceBase": 760,
+      "name": "Laboratory",
+      "table": "Robotic Assembly Line",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 10,
+      "name": "Land Claim Stake",
+      "table": "Tool Bench",
+      "skill": null
+    },
+    {
+      "priceBase": 1450,
+      "name": "Large Corrugated Steel Door",
+      "table": "Rolling Mill",
+      "skill": "Advanced Smelting L2"
+    },
+    {
+      "priceBase": 468,
+      "name": "Large Hanging Ashlar Basalt Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 504,
+      "name": "Large Hanging Ashlar Gneiss Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 120,
+      "name": "Large Hanging Ashlar Granite Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 156,
+      "name": "Large Hanging Ashlar Limestone Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 120,
+      "name": "Large Hanging Ashlar Sandstone Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 864,
+      "name": "Large Hanging Ashlar Shale Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 120,
+      "name": "Large Hanging Ashlar Stone Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 97.33,
+      "name": "Large Hanging Lumber Sign",
+      "table": "Sawmill",
+      "skill": "Carpentry L6"
+    },
+    {
+      "priceBase": 25,
+      "name": "Large Hanging Mortared Granite Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L3"
+    },
+    {
+      "priceBase": 25,
+      "name": "Large Hanging Mortared Limestone Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L3"
+    },
+    {
+      "priceBase": 25,
+      "name": "Large Hanging Mortared Sandstone Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L3"
+    },
+    {
+      "priceBase": 15,
+      "name": "Large Hanging Mortared Stone Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Hanging Birch Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Hanging Cedar Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Hanging Ceiba Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Hanging Fir Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Hanging Hardwood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Hanging Joshua Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Hanging Oak Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Hanging Palm Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 34.67,
+      "name": "Large Hanging Redwood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Hanging Saguaro Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Hanging Softwood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Hanging Spruce Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Hanging Wood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 500,
+      "name": "Large Lumber Door",
+      "table": "Sawmill",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 230,
+      "name": "Large Lumber Stockpile",
+      "table": "Sawmill",
+      "skill": "Carpentry L5"
+    },
+    {
+      "priceBase": 468,
+      "name": "Large Standing Ashlar Basalt Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 504,
+      "name": "Large Standing Ashlar Gneiss Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 120,
+      "name": "Large Standing Ashlar Granite Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 156,
+      "name": "Large Standing Ashlar Limestone Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 120,
+      "name": "Large Standing Ashlar Sandstone Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 864,
+      "name": "Large Standing Ashlar Shale Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 120,
+      "name": "Large Standing Ashlar Stone Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L2"
+    },
+    {
+      "priceBase": 97.33,
+      "name": "Large Standing Lumber Sign",
+      "table": "Sawmill",
+      "skill": "Carpentry L6"
+    },
+    {
+      "priceBase": 25,
+      "name": "Large Standing Mortared Granite Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L3"
+    },
+    {
+      "priceBase": 25,
+      "name": "Large Standing Mortared Limestone Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L3"
+    },
+    {
+      "priceBase": 25,
+      "name": "Large Standing Mortared Sandstone Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L3"
+    },
+    {
+      "priceBase": 15,
+      "name": "Large Standing Mortared Stone Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Standing Birch Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Standing Cedar Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Standing Ceiba Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Standing Fir Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Standing Hardwood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Standing Joshua Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Standing Oak Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Standing Palm Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 34.67,
+      "name": "Large Standing Redwood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Standing Saguaro Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Standing Softwood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Standing Spruce Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 24.67,
+      "name": "Large Standing Wood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L3"
+    },
+    {
+      "priceBase": 515,
+      "name": "Large Windowed Lumber Door",
+      "table": "Sawmill",
+      "skill": "Carpentry L6"
+    },
+    {
+      "priceBase": 79944,
+      "name": "Laser",
+      "table": "Robotic Assembly Line",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 360,
+      "name": "Lathe",
+      "table": "Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 6,
+      "name": "Leavened Dough",
+      "table": "Bakery Oven",
+      "skill": "Advanced Baking L1"
+    },
+    {
+      "priceBase": 74.29,
+      "name": "Light Backpack",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L3"
+    },
+    {
+      "priceBase": 276,
+      "name": "Light Bulb",
+      "table": "Electronics Assembly",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 100,
+      "name": "Limestone Bison Statue",
+      "table": "Masonry Table",
+      "skill": "Masonry L5"
+    },
+    {
+      "priceBase": 20,
+      "name": "Limestone Otter Statue",
+      "table": "Masonry Table",
+      "skill": "Masonry L2"
+    },
+    {
+      "priceBase": 20,
+      "name": "Limestone Owl Statue",
+      "table": "Masonry Table",
+      "skill": "Masonry L4"
+    },
+    {
+      "priceBase": 40,
+      "name": "Limestone Wolf Statue",
+      "table": "Masonry Table",
+      "skill": "Masonry L3"
+    },
+    {
+      "priceBase": 58,
+      "name": "Liquid Nitrogen",
+      "table": "Laboratory",
+      "skill": "Cutting Edge Cooking L1"
+    },
+    {
+      "priceBase": 16,
+      "name": "Low Top Shoes",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 91.92,
+      "name": "Hardwood Lumber Bench",
+      "table": "Sawmill",
+      "skill": "Carpentry L7"
+    },
+    {
+      "priceBase": 91.92,
+      "name": "Lumber Bench",
+      "table": "Sawmill",
+      "skill": "Carpentry L7"
+    },
+    {
+      "priceBase": 91.92,
+      "name": "Softwood Lumber Bench",
+      "table": "Sawmill",
+      "skill": "Carpentry L7"
+    },
+    {
+      "priceBase": 68,
+      "name": "Hardwood Lumber Chair",
+      "table": "Sawmill",
+      "skill": "Carpentry L6"
+    },
+    {
+      "priceBase": 68,
+      "name": "Lumber Chair",
+      "table": "Sawmill",
+      "skill": "Carpentry L6"
+    },
+    {
+      "priceBase": 68,
+      "name": "Softwood Lumber Chair",
+      "table": "Sawmill",
+      "skill": "Carpentry L6"
+    },
+    {
+      "priceBase": 24.75,
+      "name": "Hardwood Lumber Door",
+      "table": "Sawmill",
+      "skill": "Carpentry L5"
+    },
+    {
+      "priceBase": 52.67,
+      "name": "Lumber Door",
+      "table": "Sawmill",
+      "skill": "Carpentry L5"
+    },
+    {
+      "priceBase": 24.75,
+      "name": "Softwood Lumber Door",
+      "table": "Sawmill",
+      "skill": "Carpentry L5"
+    },
+    {
+      "priceBase": 170.83,
+      "name": "Lumber Stockpile",
+      "table": "Sawmill",
+      "skill": "Carpentry L4"
+    },
+    {
+      "priceBase": 194,
+      "name": "Hardwood Lumber Table",
+      "table": "Sawmill",
+      "skill": "Carpentry L6"
+    },
+    {
+      "priceBase": 194,
+      "name": "Lumber Table",
+      "table": "Sawmill",
+      "skill": "Carpentry L6"
+    },
+    {
+      "priceBase": 194,
+      "name": "Softwood Lumber Table",
+      "table": "Sawmill",
+      "skill": "Carpentry L6"
+    },
+    {
+      "priceBase": 14,
+      "name": "Macaroons",
+      "table": "Bakery Oven",
+      "skill": "Advanced Baking L2"
+    },
+    {
+      "priceBase": 262,
+      "name": "Machinist Table",
+      "table": "Sawmill",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 50,
+      "name": "Maltodextrin",
+      "table": "Laboratory",
+      "skill": "Cutting Edge Cooking L1"
+    },
+    {
+      "priceBase": 15,
+      "name": "Masonry Table",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 10,
+      "name": "Meat Pie",
+      "table": "Bakery Oven",
+      "skill": "Baking L3"
+    },
+    {
+      "priceBase": 2.67,
+      "name": "Meat Stock",
+      "table": "Cast Iron Stove",
+      "skill": "Cooking L1"
+    },
+    {
+      "priceBase": 3,
+      "name": "Meaty Stew",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L3"
+    },
+    {
+      "priceBase": 240,
+      "name": "Mechanical Water Pump",
+      "table": "Assembly Line",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 205,
+      "name": "Metallurgy Research Paper Advanced",
+      "table": "Research Table",
+      "skill": "Smelting L0"
+    },
+    {
+      "priceBase": 20,
+      "name": "Metallurgy Research Paper Basic",
+      "table": "Research Table",
+      "skill": "Mining L0"
+    },
+    {
+      "priceBase": 638,
+      "name": "Metallurgy Research Paper Modern",
+      "table": "Research Table",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 30,
+      "name": "Mill",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 683,
+      "name": "Mint",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 795,
+      "name": "Modern Axe",
+      "table": "Assembly Line",
+      "skill": "Advanced Smelting L2"
+    },
+    {
+      "priceBase": 1768,
+      "name": "Modern Double Street Light",
+      "table": "Robotic Assembly Line",
+      "skill": "Electronics L5"
+    },
+    {
+      "priceBase": 795,
+      "name": "Modern Hammer",
+      "table": "Assembly Line",
+      "skill": "Advanced Smelting L2"
+    },
+    {
+      "priceBase": 795,
+      "name": "Modern Hoe",
+      "table": "Assembly Line",
+      "skill": "Advanced Smelting L2"
+    },
+    {
+      "priceBase": 795,
+      "name": "Modern Machete",
+      "table": "Assembly Line",
+      "skill": "Advanced Smelting L2"
+    },
+    {
+      "priceBase": 795,
+      "name": "Modern Pickaxe",
+      "table": "Assembly Line",
+      "skill": "Advanced Smelting L2"
+    },
+    {
+      "priceBase": 1011.33,
+      "name": "Modern Rock Drill",
+      "table": "Assembly Line",
+      "skill": "Advanced Smelting L2"
+    },
+    {
+      "priceBase": 795,
+      "name": "Modern Scythe",
+      "table": "Assembly Line",
+      "skill": "Advanced Smelting L2"
+    },
+    {
+      "priceBase": 795,
+      "name": "Modern Shovel",
+      "table": "Assembly Line",
+      "skill": "Advanced Smelting L2"
+    },
+    {
+      "priceBase": 1130,
+      "name": "Modern Street Light",
+      "table": "Robotic Assembly Line",
+      "skill": "Electronics L5"
+    },
+    {
+      "priceBase": 367.33,
+      "name": "Modern Upgrade 1",
+      "table": "Blast Furnace",
+      "skill": "Advanced Smelting L2"
+    },
+    {
+      "priceBase": 2539.33,
+      "name": "Modern Upgrade 2",
+      "table": "Electric Machinist Table",
+      "skill": "Industry L4"
+    },
+    {
+      "priceBase": 10239.33,
+      "name": "Modern Upgrade 3",
+      "table": "Electronics Assembly",
+      "skill": "Electronics L5"
+    },
+    {
+      "priceBase": 10857.33,
+      "name": "Modern Upgrade 4",
+      "table": "Advanced Carpentry Table",
+      "skill": "Composites L6"
+    },
+    {
+      "priceBase": 2.5,
+      "name": "Mortared Granite",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 2.5,
+      "name": "Mortared Limestone",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 2.5,
+      "name": "Mortared Sandstone",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 1.5,
+      "name": "Mortared Stone",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 60,
+      "name": "Mortared Granite Bench",
+      "table": "Masonry Table",
+      "skill": "Masonry L3"
+    },
+    {
+      "priceBase": 60,
+      "name": "Mortared Limestone Bench",
+      "table": "Masonry Table",
+      "skill": "Masonry L3"
+    },
+    {
+      "priceBase": 60,
+      "name": "Mortared Sandstone Bench",
+      "table": "Masonry Table",
+      "skill": "Masonry L3"
+    },
+    {
+      "priceBase": 36,
+      "name": "Mortared Stone Bench",
+      "table": "Masonry Table",
+      "skill": "Masonry L3"
+    },
+    {
+      "priceBase": 37.5,
+      "name": "Mortared Granite Chair",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 37.5,
+      "name": "Mortared Limestone Chair",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 37.5,
+      "name": "Mortared Sandstone Chair",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 22.5,
+      "name": "Mortared Stone Chair",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 9,
+      "name": "Mortared Stone Door",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 100,
+      "name": "Mortared Granite Fireplace",
+      "table": "Masonry Table",
+      "skill": "Masonry L5"
+    },
+    {
+      "priceBase": 100,
+      "name": "Mortared Limestone Fireplace",
+      "table": "Masonry Table",
+      "skill": "Masonry L5"
+    },
+    {
+      "priceBase": 100,
+      "name": "Mortared Sandstone Fireplace",
+      "table": "Masonry Table",
+      "skill": "Masonry L5"
+    },
+    {
+      "priceBase": 60,
+      "name": "Mortared Stone Fireplace",
+      "table": "Masonry Table",
+      "skill": "Masonry L5"
+    },
+    {
+      "priceBase": 55,
+      "name": "Mortared Granite Table",
+      "table": "Masonry Table",
+      "skill": "Masonry L2"
+    },
+    {
+      "priceBase": 55,
+      "name": "Mortared Limestone Table",
+      "table": "Masonry Table",
+      "skill": "Masonry L2"
+    },
+    {
+      "priceBase": 55,
+      "name": "Mortared Sandstone Table",
+      "table": "Masonry Table",
+      "skill": "Masonry L2"
+    },
+    {
+      "priceBase": 33,
+      "name": "Mortared Stone Table",
+      "table": "Masonry Table",
+      "skill": "Masonry L2"
+    },
+    {
+      "priceBase": 0.625,
+      "name": "Nail",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 6,
+      "name": "Oil",
+      "table": "Mill",
+      "skill": "Milling L1"
+    },
+    {
+      "priceBase": 436,
+      "name": "Oil Refinery",
+      "table": "Assembly Line",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 63.81,
+      "name": "Padded Chair",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 0.5,
+      "name": "Papaya Seed",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 2,
+      "name": "Paper",
+      "table": "Carpentry Table",
+      "skill": "Paper Milling L0"
+    },
+    {
+      "priceBase": 6,
+      "name": "Pastry Dough",
+      "table": "Bakery Oven",
+      "skill": "Advanced Baking L1"
+    },
+    {
+      "priceBase": 8.39,
+      "name": "Pelt Fertilizer",
+      "table": "Farmers Table",
+      "skill": "Fertilizers L2"
+    },
+    {
+      "priceBase": 10,
+      "name": "Petroleum",
+      "table": "Pump Jack",
+      "skill": "Oil Drilling L1"
+    },
+    {
+      "priceBase": 21.97,
+      "name": "Phosphate Fertilizer",
+      "table": "Farmers Table",
+      "skill": "Fertilizers L3"
+    },
+    {
+      "priceBase": 18.33,
+      "name": "Pineapple Friend Rice",
+      "table": "Kitchen",
+      "skill": "Advanced Cooking L1"
+    },
+    {
+      "priceBase": 0.5,
+      "name": "Pineapple Seed",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 14.5,
+      "name": "Pirozhok",
+      "table": "Bakery Oven",
+      "skill": "Advanced Baking L2"
+    },
+    {
+      "priceBase": 1290,
+      "name": "Portable Steam Engine",
+      "table": "Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 418.29,
+      "name": "Powered Cart",
+      "table": "Wainwright Table",
+      "skill": "Basic Engineering L5"
+    },
+    {
+      "priceBase": 0.3333333333333333,
+      "name": "Scrap Meat",
+      "table": "Butchery Table",
+      "skill": "Butchery L1"
+    },
+    {
+      "priceBase": 0.5,
+      "name": "Prickly Pear Seed",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 16,
+      "name": "Prime Cut",
+      "table": "Butchery Table",
+      "skill": "Butchery L3"
+    },
+    {
+      "priceBase": 1.6,
+      "name": "Pulp Filler",
+      "table": "Farmers Table",
+      "skill": "Fertilizers L1"
+    },
+    {
+      "priceBase": 1132.5,
+      "name": "Pump Jack",
+      "table": "Assembly Line",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Pumpkin Seed",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 2,
+      "name": "Quicklime",
+      "table": "Blast Furnace",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 1008,
+      "name": "Radiator",
+      "table": "Electric Stamping Press",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 3.4,
+      "name": "Prepared Meat",
+      "table": "Butchery Table",
+      "skill": "Butchery L2"
+    },
+    {
+      "priceBase": 2.4,
+      "name": "Raw Bacon",
+      "table": "Butchery Table",
+      "skill": "Butchery L2"
+    },
+    {
+      "priceBase": 1,
+      "name": "Raw Roast",
+      "table": "Butchery Table",
+      "skill": "Butchery L1"
+    },
+    {
+      "priceBase": 0.45,
+      "name": "Raw Sausage",
+      "table": "Butchery Table",
+      "skill": "Butchery L1"
+    },
+    {
+      "priceBase": 54.76,
+      "name": "Real Estate Desk",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L4"
+    },
+    {
+      "priceBase": 58,
+      "name": "Rebar",
+      "table": "Blast Furnace",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 362.5,
+      "name": "Recurve Bow",
+      "table": "Anvil",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 10688,
+      "name": "Refrigerator",
+      "table": "Robotic Assembly Line",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 381.33,
+      "name": "Registrar",
+      "table": "Sawmill",
+      "skill": "Carpentry L4"
+    },
+    {
+      "priceBase": 34.375,
+      "name": "Reinforced Concrete",
+      "table": "Cement Kiln",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 48.57,
+      "name": "Research Table",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 9.666666666666666,
+      "name": "Rivet",
+      "table": "Blast Furnace",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 45995,
+      "name": "Robotic Assembly Line",
+      "table": "Electronics Assembly",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 19.33,
+      "name": "Rocker Box",
+      "table": "Workbench",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 472,
+      "name": "Rolling Mill",
+      "table": "Assembly Line",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 0.75,
+      "name": "Root Campfire Salad",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 1.5,
+      "name": "Root Campfire Stew",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L3"
+    },
+    {
+      "priceBase": 4,
+      "name": "Round Pot",
+      "table": "Kiln",
+      "skill": "Pottery L3"
+    },
+    {
+      "priceBase": 276,
+      "name": "Rubber Wheel",
+      "table": "Electric Machinist Table",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 64.29,
+      "name": "Rug Large",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L6"
+    },
+    {
+      "priceBase": 27.14,
+      "name": "Rug Medium",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L3"
+    },
+    {
+      "priceBase": 17.14,
+      "name": "Rug Small",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 48.57,
+      "name": "Running Shoes",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 26.67,
+      "name": "Salt Basket",
+      "table": "Farmers Table",
+      "skill": "Farming L3"
+    },
+    {
+      "priceBase": 4,
+      "name": "Sand",
+      "table": "Rocker Box",
+      "skill": "Mining L1"
+    },
+    {
+      "priceBase": 116,
+      "name": "Sawmill",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 537.5,
+      "name": "Screening Machine",
+      "table": "Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 250,
+      "name": "Screw Press",
+      "table": "Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 2.5,
+      "name": "Screws",
+      "table": "Lathe",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 76,
+      "name": "Seared Meat",
+      "table": "Stove",
+      "skill": "Advanced Cooking L1"
+    },
+    {
+      "priceBase": 18176.67,
+      "name": "Sensor Based Belt Sorter",
+      "table": "Electronics Assembly",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 1980,
+      "name": "Servo",
+      "table": "Electric Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 195,
+      "name": "Shaper",
+      "table": "Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 145.29,
+      "name": "Sheep Mount",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L4"
+    },
+    {
+      "priceBase": 168.33,
+      "name": "Shelf Cabinet",
+      "table": "Sawmill",
+      "skill": "Carpentry L5"
+    },
+    {
+      "priceBase": 21.71,
+      "name": "Shorts",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 0.2857142857142857,
+      "name": "Plant Fibers",
+      "table": "Fishery",
+      "skill": null
+    },
+    {
+      "priceBase": 10.67,
+      "name": "Simmered Meat",
+      "table": "Cast Iron Stove",
+      "skill": "Cooking L2"
+    },
+    {
+      "priceBase": 5,
+      "name": "Simple Syrup",
+      "table": "Kitchen",
+      "skill": "Advanced Cooking L1"
+    },
+    {
+      "priceBase": 312,
+      "name": "Sink",
+      "table": "Assembly Line",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 35276,
+      "name": "Skid Steer",
+      "table": "Robotic Assembly Line",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 312,
+      "name": "Small Hanging Ashlar Basalt Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 336,
+      "name": "Small Hanging Ashlar Gneiss Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 80,
+      "name": "Small Hanging Ashlar Granite Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 104,
+      "name": "Small Hanging Ashlar Limestone Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 80,
+      "name": "Small Hanging Ashlar Sandstone Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 576,
+      "name": "Small Hanging Ashlar Shale Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 80,
+      "name": "Small Hanging Ashlar Stone Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 50,
+      "name": "Small Hanging Lumber Sign",
+      "table": "Sawmill",
+      "skill": "Carpentry L5"
+    },
+    {
+      "priceBase": 15,
+      "name": "Small Hanging Mortared Granite Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 15,
+      "name": "Small Hanging Mortared Limestone Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 15,
+      "name": "Small Hanging Mortared Sandstone Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 9,
+      "name": "Small Hanging Mortared Stone Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Hanging Birch Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Hanging Cedar Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Hanging Ceiba Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Hanging Fir Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Hanging Hardwood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Hanging Joshua Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Hanging Oak Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Hanging Palm Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 20.67,
+      "name": "Small Hanging Redwood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Hanging Saguaro Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Hanging Softwood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Hanging Spruce Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Hanging Wood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 130,
+      "name": "Small Sink",
+      "table": "Kiln",
+      "skill": "Pottery L5"
+    },
+    {
+      "priceBase": 312,
+      "name": "Small Standing Ashlar Basalt Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 336,
+      "name": "Small Standing Ashlar Gneiss Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 80,
+      "name": "Small Standing Ashlar Granite Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 104,
+      "name": "Small Standing Ashlar Limestone Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 80,
+      "name": "Small Standing Ashlar Sandstone Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 576,
+      "name": "Small Standing Ashlar Shale Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 80,
+      "name": "Small Standing Ashlar Stone Sign",
+      "table": "Advanced Masonry Table",
+      "skill": "Advanced Masonry L1"
+    },
+    {
+      "priceBase": 50,
+      "name": "Small Standing Lumber Sign",
+      "table": "Sawmill",
+      "skill": "Carpentry L5"
+    },
+    {
+      "priceBase": 15,
+      "name": "Small Standing Mortared Granite Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 15,
+      "name": "Small Standing Mortared Limestone Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 15,
+      "name": "Small Standing Mortared Sandstone Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 9,
+      "name": "Small Standing Mortared Stone Sign",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Standing Birch Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Standing Cedar Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Standing Ceiba Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Standing Fir Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Standing Hardwood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Standing Joshua Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Standing Oak Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Standing Palm Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 20.67,
+      "name": "Small Standing Redwood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Standing Saguaro Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Standing Softwood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Standing Spruce Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 15.67,
+      "name": "Small Standing Wood Sign",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 5,
+      "name": "Small Stockpile",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 40,
+      "name": "Small Wood Cart",
+      "table": "Workbench",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 10.5,
+      "name": "Softwood Lumber",
+      "table": "Sawmill",
+      "skill": "Carpentry L2"
+    },
+    {
+      "priceBase": 4.67,
+      "name": "Soil Sampler",
+      "table": "Tool Bench",
+      "skill": "Fertilizers L0"
+    },
+    {
+      "priceBase": 23388,
+      "name": "Solar Generator",
+      "table": "Electronics Assembly",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 8,
+      "name": "Square Belt",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 4,
+      "name": "Square Pot",
+      "table": "Kiln",
+      "skill": "Pottery L3"
+    },
+    {
+      "priceBase": 183.67,
+      "name": "Stamp Mill",
+      "table": "Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 2245,
+      "name": "Steam Engine",
+      "table": "Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 2285,
+      "name": "Steam Tractor",
+      "table": "Assembly Line",
+      "skill": "Mechanics L2"
+    },
+    {
+      "priceBase": 310,
+      "name": "Steam Tractor Harvester",
+      "table": "Assembly Line",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 125,
+      "name": "Steam Tractor Plow",
+      "table": "Assembly Line",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 285,
+      "name": "Steam Tractor Sower",
+      "table": "Assembly Line",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 2285,
+      "name": "Steam Truck",
+      "table": "Assembly Line",
+      "skill": "Mechanics L2"
+    },
+    {
+      "priceBase": 342.5,
+      "name": "Steel Axe",
+      "table": "Anvil",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 176,
+      "name": "Steel Axle",
+      "table": "Electric Lathe",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 29,
+      "name": "Steel Bar",
+      "table": "Blast Furnace",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 838,
+      "name": "Steel Ceiling Light",
+      "table": "Robotic Assembly Line",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 838,
+      "name": "Steel Floor Lamp",
+      "table": "Robotic Assembly Line",
+      "skill": "Electronics L2"
+    },
+    {
+      "priceBase": 78,
+      "name": "Steel Gear",
+      "table": "Electric Planer",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 544,
+      "name": "Steel Gearbox",
+      "table": "Electric Planer",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 342.5,
+      "name": "Steel Hammer",
+      "table": "Anvil",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 342.5,
+      "name": "Steel Hoe",
+      "table": "Anvil",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 342.5,
+      "name": "Steel Machete",
+      "table": "Anvil",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 342.5,
+      "name": "Steel Pickaxe",
+      "table": "Anvil",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 58,
+      "name": "Steel Pipe",
+      "table": "Blast Furnace",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 87,
+      "name": "Steel Plate",
+      "table": "Electric Stamping Press",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 395,
+      "name": "Steel Road Tool",
+      "table": "Wainwright Table",
+      "skill": "Basic Engineering L2"
+    },
+    {
+      "priceBase": 290,
+      "name": "Steel Saw Blade",
+      "table": "Anvil",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 342.5,
+      "name": "Steel Shovel",
+      "table": "Anvil",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 342.5,
+      "name": "Steel Sickle",
+      "table": "Anvil",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 838,
+      "name": "Steel Table Lamp",
+      "table": "Robotic Assembly Line",
+      "skill": "Electronics L2"
+    },
+    {
+      "priceBase": 10,
+      "name": "Stockpile",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 6.5,
+      "name": "Stone Axe",
+      "table": "Tool Bench",
+      "skill": null
+    },
+    {
+      "priceBase": 3.75,
+      "name": "Stone Brazier",
+      "table": "Masonry Table",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 6.5,
+      "name": "Stone Hammer",
+      "table": "Tool Bench",
+      "skill": null
+    },
+    {
+      "priceBase": 6.5,
+      "name": "Stone Machete",
+      "table": "Tool Bench",
+      "skill": null
+    },
+    {
+      "priceBase": 6.5,
+      "name": "Stone Pickaxe",
+      "table": "Tool Bench",
+      "skill": null
+    },
+    {
+      "priceBase": 9,
+      "name": "Stone Ramp",
+      "table": "Wainwright Table",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 5.5,
+      "name": "Stone Road",
+      "table": "Wainwright Table",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 6.5,
+      "name": "Stone Road Tool",
+      "table": "Tool Bench",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 6.5,
+      "name": "Stone Sickle",
+      "table": "Tool Bench",
+      "skill": null
+    },
+    {
+      "priceBase": 80,
+      "name": "Stop Sign",
+      "table": "Wainwright Table",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 10,
+      "name": "Storage Chest",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 12.5,
+      "name": "Store",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 1508,
+      "name": "Stove",
+      "table": "Electric Machinist Table",
+      "skill": "Advanced Smelting L1"
+    },
+    {
+      "priceBase": 80,
+      "name": "Street Sign",
+      "table": "Wainwright Table",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 894,
+      "name": "Streetlamp",
+      "table": "Robotic Assembly Line",
+      "skill": "Electronics L5"
+    },
+    {
+      "priceBase": 92.79,
+      "name": "Stuffed Alligator",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L5"
+    },
+    {
+      "priceBase": 96.79,
+      "name": "Stuffed Bison",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L5"
+    },
+    {
+      "priceBase": 96.79,
+      "name": "Stuffed Elk",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L5"
+    },
+    {
+      "priceBase": 92.79,
+      "name": "Stuffed Goat",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L5"
+    },
+    {
+      "priceBase": 92.79,
+      "name": "Stuffed Jaguar",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L5"
+    },
+    {
+      "priceBase": 73,
+      "name": "Stuffed Turkey",
+      "table": "Bakery Oven",
+      "skill": "Advanced Baking L4"
+    },
+    {
+      "priceBase": 90.79,
+      "name": "Stuffed Wolf",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L5"
+    },
+    {
+      "priceBase": 224,
+      "name": "Substrate",
+      "table": "Electronics Assembly",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 34,
+      "name": "Sweet Salad",
+      "table": "Kitchen",
+      "skill": "Advanced Cooking L3"
+    },
+    {
+      "priceBase": 40.95,
+      "name": "Tailoring Table",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 18,
+      "name": "Tall Boots",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 3,
+      "name": "Tallow Candle",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 5,
+      "name": "Tallow Lamp",
+      "table": "Kiln",
+      "skill": "Masonry L1"
+    },
+    {
+      "priceBase": 12,
+      "name": "Tallow Wall Lamp",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Taro Seed",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 2,
+      "name": "Tiny Stockpile",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 130,
+      "name": "Toilet",
+      "table": "Kiln",
+      "skill": "Pottery L5"
+    },
+    {
+      "priceBase": 0.5,
+      "name": "Tomato Seed",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 22.5,
+      "name": "Tool Bench",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 0.5,
+      "name": "Topped Porridge",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L1"
+    },
+    {
+      "priceBase": 2,
+      "name": "Torch",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 10,
+      "name": "Torch Stand",
+      "table": "Workbench",
+      "skill": null
+    },
+    {
+      "priceBase": 2,
+      "name": "Tortilla",
+      "table": "Kitchen",
+      "skill": "Advanced Cooking L1"
+    },
+    {
+      "priceBase": 10,
+      "name": "Transglutaminase",
+      "table": "Laboratory",
+      "skill": "Cutting Edge Cooking L1"
+    },
+    {
+      "priceBase": 925,
+      "name": "Transmission Pole",
+      "table": "Electric Machinist Table",
+      "skill": "Electronics L4"
+    },
+    {
+      "priceBase": 1158,
+      "name": "Treasury",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 15.71,
+      "name": "Trousers",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L1"
+    },
+    {
+      "priceBase": 4733.33,
+      "name": "Truck",
+      "table": "Robotic Assembly Line",
+      "skill": "Industry L2"
+    },
+    {
+      "priceBase": 1124,
+      "name": "Valve",
+      "table": "Electric Machinist Table",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 6,
+      "name": "Vegetable Soup",
+      "table": "Cast Iron Stove",
+      "skill": "Cooking L2"
+    },
+    {
+      "priceBase": 3,
+      "name": "Vegetable Stock",
+      "table": "Cast Iron Stove",
+      "skill": "Cooking L1"
+    },
+    {
+      "priceBase": 43.33,
+      "name": "Wainwright Table",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 22,
+      "name": "Wall Candle",
+      "table": "Anvil",
+      "skill": "Smelting L1"
+    },
+    {
+      "priceBase": 13.33,
+      "name": "Washboard",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L3"
+    },
+    {
+      "priceBase": 5748,
+      "name": "Washing Machine",
+      "table": "Robotic Assembly Line",
+      "skill": "Industry L1"
+    },
+    {
+      "priceBase": 736,
+      "name": "Waste Filter",
+      "table": "Assembly Line",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 26.67,
+      "name": "Waterwheel",
+      "table": "Carpentry Table",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Wheat Seed",
+      "table": "Farmers Table",
+      "skill": "Farming L1"
+    },
+    {
+      "priceBase": 17.33,
+      "name": "Wheelbarrow",
+      "table": "Workbench",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 16,
+      "name": "Wild Mix",
+      "table": "Kitchen",
+      "skill": "Advanced Cooking L1"
+    },
+    {
+      "priceBase": 1,
+      "name": "Wild Stew",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L3"
+    },
+    {
+      "priceBase": 0.25,
+      "name": "Wilted Fiddleheads",
+      "table": "Campfire",
+      "skill": "Campfire Cooking L0"
+    },
+    {
+      "priceBase": 5016,
+      "name": "Wind Turbine",
+      "table": "Robotic Assembly Line",
+      "skill": "Electronics L1"
+    },
+    {
+      "priceBase": 57.43,
+      "name": "Windmill",
+      "table": "Carpentry Table",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 34.67,
+      "name": "Wood Cart",
+      "table": "Wainwright Table",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 24.57,
+      "name": "Wooden Bow",
+      "table": "Tool Bench",
+      "skill": null
+    },
+    {
+      "priceBase": 522.62,
+      "name": "Wooden Ceiling Light",
+      "table": "Sawmill",
+      "skill": "Carpentry L5"
+    },
+    {
+      "priceBase": 1853,
+      "name": "Wooden Elevator",
+      "table": "Assembly Line",
+      "skill": "Mechanics L1"
+    },
+    {
+      "priceBase": 92,
+      "name": "Wooden Elevator Call Post",
+      "table": "Sawmill",
+      "skill": "Carpentry L5"
+    },
+    {
+      "priceBase": 128.39,
+      "name": "Wooden Fabric Bed",
+      "table": "Sawmill",
+      "skill": "Carpentry L6"
+    },
+    {
+      "priceBase": 555.05,
+      "name": "Wooden Floor Lamp",
+      "table": "Sawmill",
+      "skill": "Carpentry L5"
+    },
+    {
+      "priceBase": 10,
+      "name": "Wooden Hoe",
+      "table": "Tool Bench",
+      "skill": null
+    },
+    {
+      "priceBase": 36.67,
+      "name": "Wooden Latrine",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L2"
+    },
+    {
+      "priceBase": 10,
+      "name": "Wooden Shovel",
+      "table": "Tool Bench",
+      "skill": null
+    },
+    {
+      "priceBase": 61.43,
+      "name": "Wooden Straw Bed",
+      "table": "Carpentry Table",
+      "skill": "Carpentry L1"
+    },
+    {
+      "priceBase": 564.62,
+      "name": "Wooden Table Lamp",
+      "table": "Sawmill",
+      "skill": "Carpentry L6"
+    },
+    {
+      "priceBase": 8,
+      "name": "Wooden Wheel",
+      "table": "Wainwright Table",
+      "skill": "Basic Engineering L1"
+    },
+    {
+      "priceBase": 134.29,
+      "name": "Work Backpack",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L3"
+    },
+    {
+      "priceBase": 134.29,
+      "name": "Work Boots",
+      "table": "Tailoring Table",
+      "skill": "Tailoring L3"
+    },
+    {
+      "priceBase": 10,
+      "name": "Workbench",
+      "table": "Campsite",
+      "skill": null
+    },
+    {
+      "priceBase": 2,
+      "name": "Yeast",
+      "table": "Mill",
+      "skill": "Milling L4"
+    },
+    {
+      "priceBase": 105,
+      "name": "Zoning Office",
+      "table": "Capitol",
+      "skill": null
+    }
+  ]
+}
